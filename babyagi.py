@@ -5,13 +5,13 @@ from collections import deque
 from typing import Dict, List
 
 #Set API Keys
-OPENAI_API_KEY = ""
-PINECONE_API_KEY = ""
-PINECONE_ENVIRONMENT = "us-east1-gcp" #Pinecone Environment (eg. "us-east1-gcp")
+OPENAI_API_KEY = "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"
+PINECONE_API_KEY = "69c41042-88e7-4c91-b9af-e6957d9a1803"
+PINECONE_ENVIRONMENT = "eu-west1-gcp" #Pinecone Environment (eg. "us-east1-gcp")
 
 #Set Variables
-YOUR_TABLE_NAME = "test-table"
-OBJECTIVE = "Solve world hunger."
+YOUR_TABLE_NAME = "task-evo"
+OBJECTIVE = "Figure out the best way to optimize your own code, and to feed it back for further optimization automatically improving your own code. Supply the code."
 YOUR_FIRST_TASK = "Develop a task list."
 
 #Print OBJECTIVE
